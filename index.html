@@ -14,8 +14,13 @@
 
 <!--Navbar Section -->
 
-<body>    
-    <nav class="nav">
+<body>
+
+    <ul class="skip-links">
+      <li><a href="#contact">Skip to contact form</a></li>
+      <li><a href="#main-content">Skip to main content</a></li>
+    </ul>    
+    <nav role="navigation" class="nav">
         <ul>
             <li>
                 <a href="#contact"><i class="material-icons">phone</i></a>
@@ -40,6 +45,7 @@
 
     <main>
         <div class="container">
+            <div role="banner">
         <h1>Guild Studios</h1>       
       <picture>
         <source srcset="images/logosmall.png" media="(max-width: 600px)">
@@ -52,11 +58,11 @@
         <source srcset="images/muddlarge.jpg" media="(min-width: 601px)">
         <img class="header" src="images/muddlarge.jpg" alt="someone forming mud on a pottery wheel">
       </picture>
-
+    </div>
 <!--Forms Section-->
 
 
-    <div id="contact" class="contact">
+    <div role="form" id="contact" class="contact">
     <form id="contactclasses">
         <h2>Sign Up for Classes!</h2>
         <label for="classes">Select Class:</label>
@@ -99,15 +105,16 @@
     </form>
 </div>
 
+<div role="main" id="main-content" class="main">
     <h2>What We Do</h2>
       
     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet.     sectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
     </p>
-    
+</div>
 <!--Founders Section-->
     
 
-<div id="founder" class="founder">
+<div role="complementary" id="founder" class="founder">
     <h2>Our Founders</h2>
 <picture>
     <source srcset="images/founder1small.png" media="(max-width: 600px)">
