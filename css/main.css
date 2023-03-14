@@ -1,0 +1,348 @@
+/* css reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* generic STYLES */
+
+
+html {
+  scroll-behavior: smooth;
+  background: linear-gradient( 
+    #498CCA  0 25%, 
+    #076CA8   0 50%,
+    #D61C5A   0 75%,
+    #FDBB40 0 100%);
+}
+
+body {
+  font-family: 'Hind', sans-serif;
+  padding: 10px;
+}
+
+h1 {
+  font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  padding: 15px;
+}
+
+h3 {
+  font-size: 1.25rem;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  padding: 5px;
+}
+
+
+
+div h4 {
+  font-size: 1.25rem;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  padding: 2rem 1rem;
+}
+
+p {
+  display: flex;
+  width: 65%;
+  margin: auto;
+  text-align: left;
+  font-size: 1.1rem;
+  padding:10px 5px;
+  color: white;
+}
+
+
+.container {
+  background: linear-gradient( 
+    #498CCA  0 25%, 
+    #076CA8   0 50%,
+    #D61C5A   0 75%,
+    #FDBB40 0 100%);
+    padding: 1rem;
+
+}
+
+
+.logo {
+  width: 35%;
+  display: flex;
+  margin: auto;
+  padding-bottom: 1rem;
+}
+
+.imagetext {
+  
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+
+
+
+.founders {
+  width: 55%;
+  display: flex;
+  margin: auto;
+  border-radius: .25rem;
+}
+
+
+.founder2 {
+  width: 55%;
+  display: flex;
+  margin: auto;
+  border-radius: .25rem;
+}
+
+
+
+.header {
+width: 60%;
+display: flex;
+margin: auto;
+border-radius: 1rem;
+margin-bottom: 1.5rem;
+}
+
+/*navbar styles */
+
+nav{
+background-color: #498CCA;
+margin: auto;
+padding-top: .5rem;
+}
+
+
+nav ul {
+list-style: none;
+margin: 0; 
+padding: 0;
+ }
+  
+nav li {
+display: inline;
+}
+  
+nav a {
+display: inline-block;
+border: 3px solid black;
+border-radius: 1rem;
+text-decoration: none;
+color: black;
+padding: .5rem 1.70rem;
+justify-content: space-between;
+}
+
+  nav a:hover {
+    background-color: #D61C5A;
+    color: #FDBB40;
+  }
+  
+
+
+/* form styles */
+
+
+form {
+    background-color: #076CA8;
+    padding: 30px;
+    border-radius: 5px;
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  select, input[type="text"], input[type="email"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 2px solid black;
+  }
+  
+  button {
+    background-color: #076CA8;
+    color: #FDBB40;
+    padding: 10px 40px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    margin: 2rem auto;
+  }
+
+button:hover {
+background-color: #498CCA;
+color: #FDBB40;
+}
+  
+textarea {
+width: 95%;
+border-radius: 10px;
+}
+
+/* back to top button */
+.toplink {
+  position: fixed;
+  float: right;
+  bottom: 0;
+  right: 0;
+  border: 3px solid black;
+  text-align: center;
+  text-decoration: none;
+  background-color: #D61C5A;
+  color: #FDBB40;
+  border-radius: 10px;
+  padding:  .75rem;
+  font-weight: bold;
+  opacity: 0.7;
+}
+
+.toplink i {
+  font-size: 1rem
+}
+
+.toplink:hover {
+  opacity: 1;
+}
+
+  /* gallery */
+
+.gallery img{
+  display: flex;
+  width: 65%;
+  margin: auto;
+  border-radius: .25rem;
+  transform: scale(1);
+  transition-duration: 1s;
+
+}
+
+.gallery img:hover{
+  transform: scale(1.25);
+  transition: 1s .15s;
+}
+
+/*mobile styles */
+
+@media screen and (max-width: 600px) {
+  body {
+    background: linear-gradient( 
+      #498CCA  0 25%, 
+      #076CA8   0 50%,
+      #D61C5A   0 75%,
+      #FDBB40 0 100%);
+      padding: 1rem;
+  color: black;
+  }
+
+.logo {
+  width: 65%;
+  display: flex;
+  margin: auto;
+  padding-bottom: 1rem;
+}
+
+.header {
+  width: 85%;
+  display: flex;
+  margin: auto;
+  border-radius: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.gallery img{
+  display: flex;
+  margin: auto;
+  width: 100%;
+}
+  
+p {
+  display: flex;
+  width: 85%;
+  margin: auto;
+  text-align: left;
+  font-size: 1.1rem;
+  padding: 10px 5px;
+  color: white;
+}
+
+.founders {
+  width: 85%;
+  display: flex;
+  margin: auto;
+  height: auto;
+  border-radius: 1rem;
+}
+
+.founder2 {
+  width: 85%;
+  border-radius: 1rem;
+}
+
+}
